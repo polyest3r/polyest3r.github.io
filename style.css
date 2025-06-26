@@ -4,7 +4,8 @@ width: 50%;
 }
 
 .portfolio {
-border: 0.1vh solid black;
+border: 1% solid black;
+  background-color: #FFEE8C;
 }
 
 .poppins {
