@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="pfp.ico" type="image/x-icon">
+    <title>poly</title>
+   <script> 
+     const titlePresets = [
+  "poly",
+       "polyester",
+             "polyester's site",
+];
+const cycleSpeed = 300;
 
+let currentIndex = 0;
+
+function cycleTitle() {
+  document.title = titlePresets[currentIndex];
+  currentIndex = (currentIndex + 1) % titlePresets.length;
+}
+setInterval(cycleTitle, cycleSpeed);
+   </script>
+</head>
+<body>
+  <div>
+    
+  </div>
+</body>
+</html>
