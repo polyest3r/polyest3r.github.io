@@ -1,10 +1,11 @@
 .center {
 width: 50%;
+  height: 50%;
   margin: 0 auto; 
 }
 
 .portfolio {
-border: 1% solid black;
+border: 5% solid black;
   background-color: #FFEE8C;
 }
 
