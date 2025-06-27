@@ -26,3 +26,19 @@ body, html {
 .poppins {
   font-family: "Poppins", sans-serif;
 }
+
+#title {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% 200%;
+  animation: gradientCycle 5s ease infinite;
+}
+
+@keyframes gradientCycle {
+  0% { background-image: linear-gradient(45deg, #ff0000, #ff7300); }
+  25% { background-image: linear-gradient(45deg, #ff7300, #fffb00); }
+  50% { background-image: linear-gradient(45deg, #fffb00, #48ff00); }
+  75% { background-image: linear-gradient(45deg, #48ff00, #00ffd5); }
+  100% { background-image: linear-gradient(45deg, #00ffd5, #ff0000); }
+}

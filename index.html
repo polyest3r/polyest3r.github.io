@@ -7,18 +7,18 @@
     <title>poly</title>
    <script> 
      const titlePresets = [
-  "poly",
+       "poly",
        "polyester",
-];
-const cycleSpeed = 300;
+     ];
+     const cycleSpeed = 300;
 
-let currentIndex = 0;
+     let currentIndex = 0;
 
-function cycleTitle() {
-  document.title = titlePresets[currentIndex];
-  currentIndex = (currentIndex + 1) % titlePresets.length;
-}
-setInterval(cycleTitle, cycleSpeed);
+     function cycleTitle() {
+       document.title = titlePresets[currentIndex];
+       currentIndex = (currentIndex + 1) % titlePresets.length;
+     }
+     setInterval(cycleTitle, cycleSpeed);
    </script>
   <link href="style.css" rel="stylesheet">
 </head>
@@ -26,7 +26,7 @@ setInterval(cycleTitle, cycleSpeed);
   <div class="center">
     <div class="portfolio">
       <div class="poppins">
-<h1> Hi! I'm Polyester!</h1>
+        <h1 id="title"> Hi! I'm Polyester!</h1>
       </div>     
     </div>
   </div>
