@@ -41,4 +41,5 @@ body, html {
 
 .hover:hover {
   font-size: 110%;
+  border-color: #FFEE8C;
 }
