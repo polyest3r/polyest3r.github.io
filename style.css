@@ -6,7 +6,7 @@ body, html {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-image: url("background.jpg")
+  background-image:  fit-content ("background.jpg") 
 }
 
 .center {
