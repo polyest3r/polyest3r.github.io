@@ -6,9 +6,6 @@ body, html {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-image: url("bg.mp4");
-  background-repeat: no-repeat;
-  background-size: 125%;
 }
 
 .center {
@@ -75,4 +72,13 @@ body, html {
   cursor: pointer;
   transition: opacity 1s ease;
   font-family: 'Poppins', sans-serif;
+}
+
+#bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
 }
