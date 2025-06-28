@@ -44,6 +44,10 @@ body, html {
   z-index: 2; 
 }
 
+.profile:active {
+  transform: rotate(360deg);
+}
+
 .hover {
   transition: all 0.2s ease-in-out;
 }
