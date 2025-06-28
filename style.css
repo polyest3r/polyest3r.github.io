@@ -27,3 +27,8 @@ body, html {
   font-family: "Poppins", sans-serif;
 }
 
+.profile {
+  border-radius: 5%;
+  min-height: 30%;
+  min-width: 30%;
+}
