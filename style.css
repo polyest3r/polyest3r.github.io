@@ -30,6 +30,6 @@ body, html {
 
 .profile {
   border-radius: 5%;
-  max-height: fit-content;
-  max-width: fit-content;
+  min-height: 10%;
+  min-width: 10%;
 }
