@@ -30,6 +30,6 @@ body, html {
 
 .profile {
   border-radius: 5%;
-  min-height: 10%;
-  min-width: 10%;
+  width: 150px; 
+  height: auto; 
 }
