@@ -35,10 +35,6 @@ body, html {
   height: auto; 
 }
 
-.hover {
-  transition: all 0.2s ease-in-out;
-}
-
 .hover:hover {
-  transform: scale(1.1);
+  font-size: 110%;
 }
