@@ -8,7 +8,7 @@ body, html {
   overflow: hidden;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
-  background-size: fit-content;
+  background-size: 100%;
 }
 
 .center {
