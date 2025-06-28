@@ -32,6 +32,11 @@
   <script src="https://kit.fontawesome.com/c01ddececc.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="overlay">
+    <div class="overlay-content">
+      <p>click anywhere to enter!</p>
+    </div>
+  </div>
   <div class="center">
     <div class="portfolio">
       <div class="poppins">
@@ -45,5 +50,10 @@
         </div>     
     </div>
   </div> 
+  <script>
+    document.querySelector('.overlay').addEventListener('click', function() {
+      this.classList.add('overlay-hidden');
+    });
+  </script>
 </body>
 </html>
