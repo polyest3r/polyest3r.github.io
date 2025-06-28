@@ -51,38 +51,3 @@ body, html {
   border: 2px whitesmoke;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 238, 140, 0.9);
-  backdrop-filter: blur(5px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  cursor: pointer;
-}
-
-.overlay-content {
-  text-align: center;
-  padding: 2rem;
-  border: 2px solid black;
-  background-color: rgba(255, 255, 255, 0.8);
-  max-width: 80%;
-}
-
-.overlay h2 {
-  margin-bottom: 1rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.overlay p {
-  font-family: "Poppins", sans-serif;
-}
-
-.overlay-hidden {
-  display: none !important;
-}
