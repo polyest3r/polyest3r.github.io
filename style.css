@@ -38,11 +38,11 @@ body, html {
 
 .profile {
   border: 2px solid black;
-  border-radius: 5%;
+  border-radius: 50%;
   width: 150px; 
   height: auto;
   z-index: 2; 
-  transition: transform 0.3s;
+  transition: transform 3s;
 }
 
 .profile:active {
