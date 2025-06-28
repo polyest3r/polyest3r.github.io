@@ -64,7 +64,6 @@ body, html {
   align-items: center;
   z-index: 1000;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
 }
 
 .overlay-content {
@@ -77,6 +76,11 @@ body, html {
 
 .overlay h2 {
   margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.overlay p {
+  font-family: "Poppins", sans-serif;
 }
 
 .overlay-hidden {
