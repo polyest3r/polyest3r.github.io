@@ -29,6 +29,6 @@ body, html {
 
 .profile {
   border-radius: 5%;
-  max-height: 10%;
-  max-width: 10%;
+  max-height: fit-content;
+  max-width: fit-content;
 }
