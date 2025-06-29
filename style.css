@@ -93,7 +93,6 @@ body, html {
   top: 50%;
   transform: translateY(-50%);
     display: flex;
-  align-items: center; 
   justify-content: center;   
   text-align: center;
 }
