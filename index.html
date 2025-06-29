@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="pfp.ico" type="image/x-icon">
     <title>polyester</title>
-   <script> 
-     const titlePresets = [
-       "polyester",
-       "Polyester",
-       "pOlyester",
-       "poLyester",
-       "polYester",
-       "polyEster",
-       "polyeSter",
-       "polyesTer",
-       "polyestEr",
-       "polyesteR",
-     ];
-     const cycleSpeed = 300;
+    <script>
+      const titlePresets = ["polyester", "Polyester", "pOlyester", "poLyester", "polYester", "polyEster", "polyeSter", "polyesTer", "polyestEr", "polyesteR", ];
+      const cycleSpeed = 300;
+      let currentIndex = 0;
 
-     let currentIndex = 0;
-
-     function cycleTitle() {
-       document.title = titlePresets[currentIndex];
-       currentIndex = (currentIndex + 1) % titlePresets.length;
-     }
-     setInterval(cycleTitle, cycleSpeed);
-   </script>
-  <link href="style.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/c01ddececc.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="center">
-    <div class="portfolio">
-      <div class="poppins">
+      function cycleTitle() {
+        document.title = titlePresets[currentIndex];
+        currentIndex = (currentIndex + 1) % titlePresets.length;
+      }
+      setInterval(cycleTitle, cycleSpeed);
+    </script>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c01ddececc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="center">
+      <div class="portfolio">
+        <div class="poppins">
           <img src="poly.jpg" class="profile">
-        <h1 class="title"> <em>polyest3r</em></h1>
+          <h1 class="title">
+            <em>polyest3r</em>
+          </h1>
           <h2>Hi! I'm Polyester, an amateur webdev.</h2>
-         <h1>🏳️‍⚧️</h1>
-         <a href="https://dsc.gg/polytainment" target="blank" class="hover"><i class="fa-brands fa-discord fa-2xl" style="color: #000000;"></i></a> 
-          <a href="https://github.com/polyest3r" target="_blank" class="hover"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
-          <a href="https://bsky.app/profile/polyest3r.bsky.social" target="_blank" class="hover"><i class="fa-brands fa-bluesky fa-2xl" style="color: #000000;"></i></a>
-          <a href="https://twitch.tv/polyest3r/" target="_blank" class="hover"><i class="fa-brands fa-twitch fa-2xl" style="color: #000000;"></i></a>
-          <a href="https://youtube.com/@polyest3r-dev" target="_blank" class="hover"><i class="fa-brands fa-youtube fa-2xl" style="color: #000000;"></i></a>
-          <a href="https://open.spotify.com/user/31cpy4killwkujczqpuerhnjckbm?si=oP3i9gsQSTq2dQ_kv_MIRQ" target="_blank" class="hover"><i class="fa-brands fa-spotify fa-2xl" style="color: #000000;"></i></a>
-        </div>     
-    </div>
-  </div>
-    <div class="side-box left-box poppins">
-      <div class="box-content">
-      <h2><em>I'm learning:</em></h2>
+          <h1>🏳️‍⚧️</h1>
+          <a href="https://dsc.gg/polytainment" target="blank" class="hover">
+            <i class="fa-brands fa-discord fa-2xl" style="color: #000000;"></i>
+          </a>
+          <a href="https://github.com/polyest3r" target="_blank" class="hover">
+            <i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i>
+          </a>
+          <a href="https://bsky.app/profile/polyest3r.bsky.social" target="_blank" class="hover">
+            <i class="fa-brands fa-bluesky fa-2xl" style="color: #000000;"></i>
+          </a>
+          <a href="https://twitch.tv/polyest3r/" target="_blank" class="hover">
+            <i class="fa-brands fa-twitch fa-2xl" style="color: #000000;"></i>
+          </a>
+          <a href="https://youtube.com/@polyest3r-dev" target="_blank" class="hover">
+            <i class="fa-brands fa-youtube fa-2xl" style="color: #000000;"></i>
+          </a>
+          <a href="https://open.spotify.com/user/31cpy4killwkujczqpuerhnjckbm?si=oP3i9gsQSTq2dQ_kv_MIRQ" target="_blank" class="hover">
+            <i class="fa-brands fa-spotify fa-2xl" style="color: #000000;"></i>
+          </a>
+        </div>
       </div>
     </div>
-  <div class="side-box right-box poppins">
-<div class="box-content">
-  <h2><em>My projects:</em></h2>
-</div>
-  </div>
-  <div id="overlay">click anywhere to enter!!</div>
-  <audio id="audioPlayer" src="music.mp3" loop="true" volume=0.5></audio>
-  <script src="script.js"></script>
-<video autoplay muted loop id="bg">
-  <source src="bg.mp4" type="video/mp4">
-</video>
-</body>
-</html>
+    <div class="side-box left-box poppins">
+      <div class="box-content">
+        <h1>
+          <em>I'm learning:</em>
+        </h1>
+        <br>
+        <i class="fa-brands fa-python fa-2xl" style="color: #000000;"></i>
+        <br>
+        <i class="fa-brands fa-js fa-2xl" style="color: #000000;"></i>
+        <br>
+        <h1>
+          <em>I know:</em>
+        </h1>
+        <br>
+        <i class="fa-brands fa-html5 fa-2xl" style="color: #000000;"></i>
+        <br>
+        <i class="fa-brands fa-css fa-2xl" style="color: #000000;"></i>
+      </div>
+    </div>
+    <div class="side-box right-box poppins">
+      <div class="box-content">
+        <h1>
+          <em>My projects:</em>
+        </h1>
+      </div>
+    </div>
+    <div id="overlay">click anywhere to enter!!</div>
+    <audio id="audioPlayer" src="music.mp3" loop="true" volume=0.5></audio>
+    <script src="script.js"></script>
+    <video autoplay muted loop id="bg">
+      <source src="bg.mp4" type="video/mp4">
+    </video>
+  </body>
