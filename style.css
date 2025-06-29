@@ -109,3 +109,10 @@ html {
 .right-box {
   right: 2.5%;
 }
+
+.project-img {
+  border: 2px solid black;
+  border-radius: 5%;
+  width: 50px;
+  height: auto;
+}
