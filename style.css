@@ -90,7 +90,9 @@ body, html {
   width: 20%;
 }
 
-.alignleft {
-position: absolute;
-float: left;
-}
+.alignleft (
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+)
