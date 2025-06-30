@@ -7,6 +7,9 @@ html {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  background-image: url('backgrounds/goldglitter.gif');
+  background-repeat: repeat-x; 
+  animation: bg-slide 10s linear infinite; 
 }
 
 .center {
@@ -130,4 +133,9 @@ transform: scale(1.1);
 
 .trans:hover {
  transform: scale(1.2);
+}
+
+@keyframes bg-slide {
+  from { background-position: 0 0; }
+    to { background-position: 100% 0; }
 }
