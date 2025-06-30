@@ -129,5 +129,5 @@ transform: scale(1.1);
 }
 
 .trans:hover {
- font-size: 200%;
+ transform: scale(1.2);
 }
