@@ -128,11 +128,11 @@ transform: scale(1.1);
 }
 
 .trans {
-  transition: all 0.2s ease-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .trans:hover {
- transform: scale(1.2);
+ transform: scale(1.1);
 }
 
 @keyframes bg-slide {
